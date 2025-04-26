@@ -33,6 +33,20 @@ First we are going to create two virtual machines. One is titled "DC-1" and the 
 
 Next, we’ll set a static (fixed) IP address on the domain controller (DC-1) instead of using a dynamic one. This is important because a static IP makes sure the domain controller’s address doesn’t change. That way, the client computers can always find DC-1 when they need to join the domain or look up names using its DNS service.
 
+![image](https://github.com/user-attachments/assets/e2d869e6-0ec6-4e07-b888-d5b38e06e832)
+![image](https://github.com/user-attachments/assets/a6e925b7-2f00-44c6-bc59-605f7c8f27c3) 
+![image](https://github.com/user-attachments/assets/d90ed389-7704-42c5-9bd6-bde6d5e689fe)
+
+Next we will use the remote desktop to disable the firewall using the IP address of "DC-1". Once you sign in through the remote desktop you will roight click the microsoft windows and choose run. Once prompted for a code you will enter "wf.msc". For the firewall state of private, domain and public you will switch them to off. This insures that the firewall have been taken down.
+
+![image](https://github.com/user-attachments/assets/bb882120-b66d-4adc-8119-a0a26dcfd1bd)
+
+Then we will go to "client-1" and switch the DNS-server to the private IP address of "dc-1". You will do so by going to virtual machines, client-1, network settings, and clicking on client 1723_z1. 
+
+
+
+
+
 
 
 
