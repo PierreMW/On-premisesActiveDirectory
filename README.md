@@ -41,7 +41,7 @@ Next we will use the remote desktop to disable the firewall using the IP address
 
 ![image](https://github.com/user-attachments/assets/bb882120-b66d-4adc-8119-a0a26dcfd1bd)
 
-Then we will go to "client-1" and switch the DNS-server to the private IP address of "dc-1". You will do so by going to virtual machines, client-1, network settings and clicking on client 1723_z1. Once you have completed those steps you will restart client-1 to insure it is working properly with the new settings.
+Then we will go to "client-1" and switch the DNS-server to the private IP address of "dc-1". You will do so by going to virtual machines, client-1, network settings and clicking on "client 1723_z1". Once you have completed those steps you will restart client-1 to insure it is working properly with the new settings.
 
 ![image](https://github.com/user-attachments/assets/87144b00-f555-424c-a869-07abb0950765)
 ![image](https://github.com/user-attachments/assets/4c375099-f4eb-400f-a40f-457b80b0518d)
